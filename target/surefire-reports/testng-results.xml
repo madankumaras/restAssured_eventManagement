@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="17" passed="17" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-17T15:08:06 IST" name="Event Management API Test Suite" finished-at="2026-03-17T15:08:25 IST" duration-ms="19065">
+    <groups>
+    </groups>
+    <test started-at="2026-03-17T15:08:06 IST" name="API Tests" finished-at="2026-03-17T15:08:06 IST" duration-ms="5">
+    </test> <!-- API Tests -->
+    <test started-at="2026-03-17T15:08:11 IST" name="Integration Tests" finished-at="2026-03-17T15:08:15 IST" duration-ms="4481">
+      <class name="com.eventmanagement.tests.integration.ApiIntegrationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.eventmanagement.tests.integration.ApiIntegrationTest@27b22f74]" started-at="2026-03-17T15:08:11 IST" name="setup" finished-at="2026-03-17T15:08:12 IST" duration-ms="1802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createEventThenBookIt()[pri:0, instance:com.eventmanagement.tests.integration.ApiIntegrationTest@27b22f74]" started-at="2026-03-17T15:08:12 IST" name="createEventThenBookIt" description="INTEGRATION -- Create event then book it; verify seat decrement" finished-at="2026-03-17T15:08:13 IST" duration-ms="540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEventThenBookIt -->
+        <test-method signature="fullBookingLifecycle()[pri:0, instance:com.eventmanagement.tests.integration.ApiIntegrationTest@27b22f74]" started-at="2026-03-17T15:08:13 IST" name="fullBookingLifecycle" description="INTEGRATION -- Book → Retrieve by ref → Cancel → Verify seats" finished-at="2026-03-17T15:08:14 IST" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fullBookingLifecycle -->
+        <test-method signature="singleTokenShouldAccessAllResources()[pri:0, instance:com.eventmanagement.tests.integration.ApiIntegrationTest@27b22f74]" started-at="2026-03-17T15:08:14 IST" name="singleTokenShouldAccessAllResources" description="INTEGRATION -- Verify auth token can access all protected resources" finished-at="2026-03-17T15:08:14 IST" duration-ms="341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- singleTokenShouldAccessAllResources -->
+        <test-method signature="updateEventAndVerifyViaGet()[pri:0, instance:com.eventmanagement.tests.integration.ApiIntegrationTest@27b22f74]" started-at="2026-03-17T15:08:14 IST" name="updateEventAndVerifyViaGet" description="INTEGRATION -- Update event then verify changes via GET" finished-at="2026-03-17T15:08:14 IST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateEventAndVerifyViaGet -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.eventmanagement.tests.integration.ApiIntegrationTest@27b22f74]" started-at="2026-03-17T15:08:14 IST" name="teardown" finished-at="2026-03-17T15:08:15 IST" duration-ms="683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.eventmanagement.tests.integration.ApiIntegrationTest -->
+    </test> <!-- Integration Tests -->
+    <test started-at="2026-03-17T15:08:15 IST" name="Performance Tests" finished-at="2026-03-17T15:08:22 IST" duration-ms="6822">
+      <class name="com.eventmanagement.tests.performance.PerformanceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.eventmanagement.tests.performance.PerformanceTest@1c025cb]" started-at="2026-03-17T15:08:15 IST" name="setup" finished-at="2026-03-17T15:08:15 IST" duration-ms="219" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createEventEndpointShouldRespondUnder2s()[pri:0, instance:com.eventmanagement.tests.performance.PerformanceTest@1c025cb]" started-at="2026-03-17T15:08:15 IST" name="createEventEndpointShouldRespondUnder2s" description="PERF -- POST /events should respond under 2s" finished-at="2026-03-17T15:08:15 IST" duration-ms="141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createEventEndpointShouldRespondUnder2s -->
+        <test-method signature="getEventByIdShouldRespondUnder2s()[pri:0, instance:com.eventmanagement.tests.performance.PerformanceTest@1c025cb]" started-at="2026-03-17T15:08:15 IST" name="getEventByIdShouldRespondUnder2s" description="PERF -- GET /events/:id should respond under 2s" finished-at="2026-03-17T15:08:16 IST" duration-ms="266" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEventByIdShouldRespondUnder2s -->
+        <test-method signature="healthEndpointShouldRespondUnder2s()[pri:0, instance:com.eventmanagement.tests.performance.PerformanceTest@1c025cb]" started-at="2026-03-17T15:08:16 IST" name="healthEndpointShouldRespondUnder2s" description="PERF -- GET /health should respond under 2s" finished-at="2026-03-17T15:08:21 IST" duration-ms="5122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthEndpointShouldRespondUnder2s -->
+        <test-method signature="listBookingsEndpointShouldRespondUnder2s()[pri:0, instance:com.eventmanagement.tests.performance.PerformanceTest@1c025cb]" started-at="2026-03-17T15:08:21 IST" name="listBookingsEndpointShouldRespondUnder2s" description="PERF -- GET /bookings should respond under 2s" finished-at="2026-03-17T15:08:21 IST" duration-ms="127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listBookingsEndpointShouldRespondUnder2s -->
+        <test-method signature="listEventsEndpointShouldRespondUnder2s()[pri:0, instance:com.eventmanagement.tests.performance.PerformanceTest@1c025cb]" started-at="2026-03-17T15:08:21 IST" name="listEventsEndpointShouldRespondUnder2s" description="PERF -- GET /events should respond under 2s" finished-at="2026-03-17T15:08:21 IST" duration-ms="115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listEventsEndpointShouldRespondUnder2s -->
+        <test-method signature="loginEndpointShouldRespondUnder2s()[pri:0, instance:com.eventmanagement.tests.performance.PerformanceTest@1c025cb]" started-at="2026-03-17T15:08:21 IST" name="loginEndpointShouldRespondUnder2s" description="PERF -- POST /auth/login should respond under 2s" finished-at="2026-03-17T15:08:21 IST" duration-ms="215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginEndpointShouldRespondUnder2s -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.eventmanagement.tests.performance.PerformanceTest@1c025cb]" started-at="2026-03-17T15:08:21 IST" name="teardown" finished-at="2026-03-17T15:08:22 IST" duration-ms="608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.eventmanagement.tests.performance.PerformanceTest -->
+    </test> <!-- Performance Tests -->
+    <test started-at="2026-03-17T15:08:22 IST" name="E2E Tests" finished-at="2026-03-17T15:08:25 IST" duration-ms="2687">
+      <class name="com.eventmanagement.tests.e2e.FullJourneyTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.eventmanagement.tests.e2e.FullJourneyTest@18324f97]" started-at="2026-03-17T15:08:22 IST" name="setup" finished-at="2026-03-17T15:08:22 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="step1_RegisterNewUser()[pri:0, instance:com.eventmanagement.tests.e2e.FullJourneyTest@18324f97]" started-at="2026-03-17T15:08:22 IST" name="step1_RegisterNewUser" description="E2E Step 1 -- Register a brand new user" finished-at="2026-03-17T15:08:22 IST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step1_RegisterNewUser -->
+        <test-method signature="step2_LoginWithRegisteredUser()[pri:0, instance:com.eventmanagement.tests.e2e.FullJourneyTest@18324f97]" started-at="2026-03-17T15:08:22 IST" name="step2_LoginWithRegisteredUser" description="E2E Step 2 -- Login with the registered user" finished-at="2026-03-17T15:08:24 IST" depends-on-methods="com.eventmanagement.tests.e2e.FullJourneyTest.step1_RegisterNewUser" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step2_LoginWithRegisteredUser -->
+        <test-method signature="step3_CreateEvent()[pri:0, instance:com.eventmanagement.tests.e2e.FullJourneyTest@18324f97]" started-at="2026-03-17T15:08:24 IST" name="step3_CreateEvent" description="E2E Step 3 -- Create a new event (as org/admin user)" finished-at="2026-03-17T15:08:24 IST" depends-on-methods="com.eventmanagement.tests.e2e.FullJourneyTest.step2_LoginWithRegisteredUser" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step3_CreateEvent -->
+        <test-method signature="step4_BookTheEvent()[pri:0, instance:com.eventmanagement.tests.e2e.FullJourneyTest@18324f97]" started-at="2026-03-17T15:08:24 IST" name="step4_BookTheEvent" description="E2E Step 4 -- Book the event" finished-at="2026-03-17T15:08:24 IST" depends-on-methods="com.eventmanagement.tests.e2e.FullJourneyTest.step3_CreateEvent" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step4_BookTheEvent -->
+        <test-method signature="step5_VerifyBookingInListing()[pri:0, instance:com.eventmanagement.tests.e2e.FullJourneyTest@18324f97]" started-at="2026-03-17T15:08:24 IST" name="step5_VerifyBookingInListing" description="E2E Step 5 -- Verify booking appears in listing" finished-at="2026-03-17T15:08:24 IST" depends-on-methods="com.eventmanagement.tests.e2e.FullJourneyTest.step4_BookTheEvent" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step5_VerifyBookingInListing -->
+        <test-method signature="step6_CancelBookingAndVerifySeats()[pri:0, instance:com.eventmanagement.tests.e2e.FullJourneyTest@18324f97]" started-at="2026-03-17T15:08:24 IST" name="step6_CancelBookingAndVerifySeats" description="E2E Step 6 -- Cancel the booking and verify seat restoration" finished-at="2026-03-17T15:08:24 IST" depends-on-methods="com.eventmanagement.tests.e2e.FullJourneyTest.step5_VerifyBookingInListing" duration-ms="338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step6_CancelBookingAndVerifySeats -->
+        <test-method signature="step7_DeleteEventAndVerify()[pri:0, instance:com.eventmanagement.tests.e2e.FullJourneyTest@18324f97]" started-at="2026-03-17T15:08:24 IST" name="step7_DeleteEventAndVerify" description="E2E Step 7 -- Delete the event and confirm it&#039;s gone" finished-at="2026-03-17T15:08:25 IST" depends-on-methods="com.eventmanagement.tests.e2e.FullJourneyTest.step6_CancelBookingAndVerifySeats" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- step7_DeleteEventAndVerify -->
+      </class> <!-- com.eventmanagement.tests.e2e.FullJourneyTest -->
+    </test> <!-- E2E Tests -->
+  </suite> <!-- Event Management API Test Suite -->
+</testng-results>

@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Event_Management_API_Test_Suite" class="navigator-link">
+              <span class="suite-name border-passed">Event Management API Test Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Event_Management_API_Test_Suite" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Event_Management_API_Test_Suite" class="navigator-link ">
+                    <span class="test-stats">4 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Event_Management_API_Test_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Event_Management_API_Test_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Event_Management_API_Test_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Event_Management_API_Test_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Event_Management_API_Test_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">17 methods,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Event_Management_API_Test_Suite" class="hide-methods passed suite-Event_Management_API_Test_Suite"> (hide)</a> <!-- hide-methods passed suite-Event_Management_API_Test_Suite -->
+                      <a href="#" panel-name="suite-Event_Management_API_Test_Suite" class="show-methods passed suite-Event_Management_API_Test_Suite"> (show)</a> <!-- show-methods passed suite-Event_Management_API_Test_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Event_Management_API_Test_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.performance.PerformanceTest" class="method navigator-link" hash-for-method="createEventEndpointShouldRespondUnder2s">createEventEndpointShouldRespondUnder2s</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.integration.ApiIntegrationTest" class="method navigator-link" hash-for-method="createEventThenBookIt">createEventThenBookIt</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.integration.ApiIntegrationTest" class="method navigator-link" hash-for-method="fullBookingLifecycle">fullBookingLifecycle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.performance.PerformanceTest" class="method navigator-link" hash-for-method="getEventByIdShouldRespondUnder2s">getEventByIdShouldRespondUnder2s</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.performance.PerformanceTest" class="method navigator-link" hash-for-method="healthEndpointShouldRespondUnder2s">healthEndpointShouldRespondUnder2s</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.performance.PerformanceTest" class="method navigator-link" hash-for-method="listBookingsEndpointShouldRespondUnder2s">listBookingsEndpointShouldRespondUnder2s</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.performance.PerformanceTest" class="method navigator-link" hash-for-method="listEventsEndpointShouldRespondUnder2s">listEventsEndpointShouldRespondUnder2s</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.performance.PerformanceTest" class="method navigator-link" hash-for-method="loginEndpointShouldRespondUnder2s">loginEndpointShouldRespondUnder2s</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.integration.ApiIntegrationTest" class="method navigator-link" hash-for-method="singleTokenShouldAccessAllResources">singleTokenShouldAccessAllResources</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.e2e.FullJourneyTest" class="method navigator-link" hash-for-method="step1_RegisterNewUser">step1_RegisterNewUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.e2e.FullJourneyTest" class="method navigator-link" hash-for-method="step2_LoginWithRegisteredUser">step2_LoginWithRegisteredUser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.e2e.FullJourneyTest" class="method navigator-link" hash-for-method="step3_CreateEvent">step3_CreateEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.e2e.FullJourneyTest" class="method navigator-link" hash-for-method="step4_BookTheEvent">step4_BookTheEvent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.e2e.FullJourneyTest" class="method navigator-link" hash-for-method="step5_VerifyBookingInListing">step5_VerifyBookingInListing</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.e2e.FullJourneyTest" class="method navigator-link" hash-for-method="step6_CancelBookingAndVerifySeats">step6_CancelBookingAndVerifySeats</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.e2e.FullJourneyTest" class="method navigator-link" hash-for-method="step7_DeleteEventAndVerify">step7_DeleteEventAndVerify</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Event_Management_API_Test_Suite" title="com.eventmanagement.tests.integration.ApiIntegrationTest" class="method navigator-link" hash-for-method="updateEventAndVerifyViaGet">updateEventAndVerifyViaGet</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Event_Management_API_Test_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Event_Management_API_Test_Suite" class="panel Event_Management_API_Test_Suite">
+          <div class="suite-Event_Management_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eventmanagement.tests.e2e.FullJourneyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="step1_RegisterNewUser">
+                  </a> <!-- step1_RegisterNewUser -->
+                  <span class="method-name">step1_RegisterNewUser</span>
+                  <em>
+(E2E Step 1 -- Register a brand new user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step2_LoginWithRegisteredUser">
+                  </a> <!-- step2_LoginWithRegisteredUser -->
+                  <span class="method-name">step2_LoginWithRegisteredUser</span>
+                  <em>
+(E2E Step 2 -- Login with the registered user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step3_CreateEvent">
+                  </a> <!-- step3_CreateEvent -->
+                  <span class="method-name">step3_CreateEvent</span>
+                  <em>
+(E2E Step 3 -- Create a new event (as org/admin user))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step4_BookTheEvent">
+                  </a> <!-- step4_BookTheEvent -->
+                  <span class="method-name">step4_BookTheEvent</span>
+                  <em>
+(E2E Step 4 -- Book the event)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step5_VerifyBookingInListing">
+                  </a> <!-- step5_VerifyBookingInListing -->
+                  <span class="method-name">step5_VerifyBookingInListing</span>
+                  <em>
+(E2E Step 5 -- Verify booking appears in listing)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step6_CancelBookingAndVerifySeats">
+                  </a> <!-- step6_CancelBookingAndVerifySeats -->
+                  <span class="method-name">step6_CancelBookingAndVerifySeats</span>
+                  <em>
+(E2E Step 6 -- Cancel the booking and verify seat restoration)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="step7_DeleteEventAndVerify">
+                  </a> <!-- step7_DeleteEventAndVerify -->
+                  <span class="method-name">step7_DeleteEventAndVerify</span>
+                  <em>
+(E2E Step 7 -- Delete the event and confirm it's gone)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Event_Management_API_Test_Suite-class-passed -->
+          <div class="suite-Event_Management_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eventmanagement.tests.integration.ApiIntegrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createEventThenBookIt">
+                  </a> <!-- createEventThenBookIt -->
+                  <span class="method-name">createEventThenBookIt</span>
+                  <em>
+(INTEGRATION -- Create event then book it; verify seat decrement)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="fullBookingLifecycle">
+                  </a> <!-- fullBookingLifecycle -->
+                  <span class="method-name">fullBookingLifecycle</span>
+                  <em>
+(INTEGRATION -- Book → Retrieve by ref → Cancel → Verify seats)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="singleTokenShouldAccessAllResources">
+                  </a> <!-- singleTokenShouldAccessAllResources -->
+                  <span class="method-name">singleTokenShouldAccessAllResources</span>
+                  <em>
+(INTEGRATION -- Verify auth token can access all protected resources)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateEventAndVerifyViaGet">
+                  </a> <!-- updateEventAndVerifyViaGet -->
+                  <span class="method-name">updateEventAndVerifyViaGet</span>
+                  <em>
+(INTEGRATION -- Update event then verify changes via GET)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Event_Management_API_Test_Suite-class-passed -->
+          <div class="suite-Event_Management_API_Test_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.eventmanagement.tests.performance.PerformanceTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createEventEndpointShouldRespondUnder2s">
+                  </a> <!-- createEventEndpointShouldRespondUnder2s -->
+                  <span class="method-name">createEventEndpointShouldRespondUnder2s</span>
+                  <em>
+(PERF -- POST /events should respond under 2s)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getEventByIdShouldRespondUnder2s">
+                  </a> <!-- getEventByIdShouldRespondUnder2s -->
+                  <span class="method-name">getEventByIdShouldRespondUnder2s</span>
+                  <em>
+(PERF -- GET /events/:id should respond under 2s)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="healthEndpointShouldRespondUnder2s">
+                  </a> <!-- healthEndpointShouldRespondUnder2s -->
+                  <span class="method-name">healthEndpointShouldRespondUnder2s</span>
+                  <em>
+(PERF -- GET /health should respond under 2s)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listBookingsEndpointShouldRespondUnder2s">
+                  </a> <!-- listBookingsEndpointShouldRespondUnder2s -->
+                  <span class="method-name">listBookingsEndpointShouldRespondUnder2s</span>
+                  <em>
+(PERF -- GET /bookings should respond under 2s)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listEventsEndpointShouldRespondUnder2s">
+                  </a> <!-- listEventsEndpointShouldRespondUnder2s -->
+                  <span class="method-name">listEventsEndpointShouldRespondUnder2s</span>
+                  <em>
+(PERF -- GET /events should respond under 2s)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginEndpointShouldRespondUnder2s">
+                  </a> <!-- loginEndpointShouldRespondUnder2s -->
+                  <span class="method-name">loginEndpointShouldRespondUnder2s</span>
+                  <em>
+(PERF -- POST /auth/login should respond under 2s)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Event_Management_API_Test_Suite-class-passed -->
+        </div> <!-- panel Event_Management_API_Test_Suite -->
+        <div panel-name="test-xml-Event_Management_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Event Management API Test Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;io.qameta.allure.testng.AllureTestNg&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;API Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;api&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eventmanagement.tests.api.HealthApiTest&quot;/&gt;
+      &lt;class name=&quot;com.eventmanagement.tests.api.AuthApiTest&quot;/&gt;
+      &lt;class name=&quot;com.eventmanagement.tests.api.EventsApiTest&quot;/&gt;
+      &lt;class name=&quot;com.eventmanagement.tests.api.BookingsApiTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- API Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Integration Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eventmanagement.tests.integration.ApiIntegrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Integration Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Performance Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eventmanagement.tests.performance.PerformanceTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Performance Tests --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;E2E Tests&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.eventmanagement.tests.e2e.FullJourneyTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- E2E Tests --&gt;
+&lt;/suite&gt; &lt;!-- Event Management API Test Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Event_Management_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Event Management API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">API Tests (4 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Integration Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Performance Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">E2E Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Event_Management_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Event Management API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Event_Management_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Event Management API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Event_Management_API_Test_Suite');
+function tableData_Event_Management_API_Test_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(17);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'healthEndpointShouldRespondUnder2s')
+data.setCell(0, 2, 'com.eventmanagement.tests.performance.PerformanceTest')
+data.setCell(0, 3, 5122);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'step2_LoginWithRegisteredUser')
+data.setCell(1, 2, 'com.eventmanagement.tests.e2e.FullJourneyTest')
+data.setCell(1, 3, 1117);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'fullBookingLifecycle')
+data.setCell(2, 2, 'com.eventmanagement.tests.integration.ApiIntegrationTest')
+data.setCell(2, 3, 664);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'createEventThenBookIt')
+data.setCell(3, 2, 'com.eventmanagement.tests.integration.ApiIntegrationTest')
+data.setCell(3, 3, 540);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'updateEventAndVerifyViaGet')
+data.setCell(4, 2, 'com.eventmanagement.tests.integration.ApiIntegrationTest')
+data.setCell(4, 3, 425);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'singleTokenShouldAccessAllResources')
+data.setCell(5, 2, 'com.eventmanagement.tests.integration.ApiIntegrationTest')
+data.setCell(5, 3, 341);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'step6_CancelBookingAndVerifySeats')
+data.setCell(6, 2, 'com.eventmanagement.tests.e2e.FullJourneyTest')
+data.setCell(6, 3, 338);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'step1_RegisterNewUser')
+data.setCell(7, 2, 'com.eventmanagement.tests.e2e.FullJourneyTest')
+data.setCell(7, 3, 293);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getEventByIdShouldRespondUnder2s')
+data.setCell(8, 2, 'com.eventmanagement.tests.performance.PerformanceTest')
+data.setCell(8, 3, 266);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'step4_BookTheEvent')
+data.setCell(9, 2, 'com.eventmanagement.tests.e2e.FullJourneyTest')
+data.setCell(9, 3, 247);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginEndpointShouldRespondUnder2s')
+data.setCell(10, 2, 'com.eventmanagement.tests.performance.PerformanceTest')
+data.setCell(10, 3, 215);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'step7_DeleteEventAndVerify')
+data.setCell(11, 2, 'com.eventmanagement.tests.e2e.FullJourneyTest')
+data.setCell(11, 3, 208);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'createEventEndpointShouldRespondUnder2s')
+data.setCell(12, 2, 'com.eventmanagement.tests.performance.PerformanceTest')
+data.setCell(12, 3, 141);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'step3_CreateEvent')
+data.setCell(13, 2, 'com.eventmanagement.tests.e2e.FullJourneyTest')
+data.setCell(13, 3, 128);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'listBookingsEndpointShouldRespondUnder2s')
+data.setCell(14, 2, 'com.eventmanagement.tests.performance.PerformanceTest')
+data.setCell(14, 3, 127);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'step5_VerifyBookingInListing')
+data.setCell(15, 2, 'com.eventmanagement.tests.e2e.FullJourneyTest')
+data.setCell(15, 3, 118);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'listEventsEndpointShouldRespondUnder2s')
+data.setCell(16, 2, 'com.eventmanagement.tests.performance.PerformanceTest')
+data.setCell(16, 3, 115);
+window.suiteTableData['Event_Management_API_Test_Suite']= { tableData: data, tableDiv: 'times-div-Event_Management_API_Test_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 10 seconds</span>
+              <div id="times-div-Event_Management_API_Test_Suite">
+              </div> <!-- times-div-Event_Management_API_Test_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Event_Management_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Event Management API Test Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Event_Management_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">40 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.eventmanagement.tests.api.AuthApiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shouldRejectDuplicateEmail</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectWrongPassword</span>
+                <br/>
+                <span class="ignored-method-name">shouldLoginWithValidCredentials</span>
+                <br/>
+                <span class="ignored-method-name">shouldReturn401WithoutToken</span>
+                <br/>
+                <span class="ignored-method-name">shouldRegisterNewUserSuccessfully</span>
+                <br/>
+                <span class="ignored-method-name">shouldReturn401WithInvalidToken</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectShortPassword</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectInvalidEmailFormats</span>
+                <br/>
+                <span class="ignored-method-name">shouldReturnUserIdentityWithValidToken</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectUnregisteredEmail</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.eventmanagement.tests.api.HealthApiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shouldReturnHealthyStatus</span>
+                <br/>
+                <span class="ignored-method-name">shouldReturnFeatureFlagObject</span>
+                <br/>
+                <span class="ignored-method-name">healthResponseTimeShouldBeUnder2Seconds</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.eventmanagement.tests.api.BookingsApiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shouldFilterBookingsByStatus</span>
+                <br/>
+                <span class="ignored-method-name">shouldReturn404ForInvalidReference</span>
+                <br/>
+                <span class="ignored-method-name">shouldListAllBookingsPaginated</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectWhenInsufficientSeatsAvailable</span>
+                <br/>
+                <span class="ignored-method-name">shouldFindBookingByReference</span>
+                <br/>
+                <span class="ignored-method-name">shouldReturn404ForNonExistentBooking</span>
+                <br/>
+                <span class="ignored-method-name">shouldDecrementAvailableSeatsAtomically</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectQuantityZero</span>
+                <br/>
+                <span class="ignored-method-name">shouldGenerateUniqueBookingReference</span>
+                <br/>
+                <span class="ignored-method-name">shouldReturn404WhenCancellingNonExistentBooking</span>
+                <br/>
+                <span class="ignored-method-name">shouldCreateBookingSuccessfully</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectBookingForNonExistentEvent</span>
+                <br/>
+                <span class="ignored-method-name">shouldFilterBookingsByEventId</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectQuantityExceedingLimit</span>
+                <br/>
+                <span class="ignored-method-name">shouldGetSingleBookingById</span>
+                <br/>
+                <span class="ignored-method-name">shouldCancelBookingAndRestoreSeats</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.eventmanagement.tests.api.EventsApiTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">shouldReturn404WhenDeletingNonExistentEvent</span>
+                <br/>
+                <span class="ignored-method-name">shouldReturn404ForNonExistentEvent</span>
+                <br/>
+                <span class="ignored-method-name">shouldCreateEventSuccessfully</span>
+                <br/>
+                <span class="ignored-method-name">shouldUpdateEvent</span>
+                <br/>
+                <span class="ignored-method-name">shouldGetSingleEventById</span>
+                <br/>
+                <span class="ignored-method-name">shouldRejectEventWithMissingRequiredFields</span>
+                <br/>
+                <span class="ignored-method-name">shouldFilterEventsByCity</span>
+                <br/>
+                <span class="ignored-method-name">shouldListEventsWithPagination</span>
+                <br/>
+                <span class="ignored-method-name">shouldDeleteEvent</span>
+                <br/>
+                <span class="ignored-method-name">shouldSearchEventsByKeyword</span>
+                <br/>
+                <span class="ignored-method-name">shouldFilterEventsByCategory</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Event_Management_API_Test_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eventmanagement.tests.integration.ApiIntegrationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createEventThenBookIt</span>
+                <span class="method-start">1807 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">fullBookingLifecycle</span>
+                <span class="method-start">2354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">singleTokenShouldAccessAllResources</span>
+                <span class="method-start">3019 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">updateEventAndVerifyViaGet</span>
+                <span class="method-start">3361 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">3787 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eventmanagement.tests.performance.PerformanceTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">4474 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">createEventEndpointShouldRespondUnder2s</span>
+                <span class="method-start">4694 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getEventByIdShouldRespondUnder2s</span>
+                <span class="method-start">4836 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">healthEndpointShouldRespondUnder2s</span>
+                <span class="method-start">5103 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listBookingsEndpointShouldRespondUnder2s</span>
+                <span class="method-start">10226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">listEventsEndpointShouldRespondUnder2s</span>
+                <span class="method-start">10354 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginEndpointShouldRespondUnder2s</span>
+                <span class="method-start">10470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">10686 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.eventmanagement.tests.e2e.FullJourneyTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11300 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">step1_RegisterNewUser</span>
+                <span class="method-start">11529 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step2_LoginWithRegisteredUser</span>
+                <span class="method-start">11823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step3_CreateEvent</span>
+                <span class="method-start">12941 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step4_BookTheEvent</span>
+                <span class="method-start">13070 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step5_VerifyBookingInListing</span>
+                <span class="method-start">13318 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step6_CancelBookingAndVerifySeats</span>
+                <span class="method-start">13437 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">step7_DeleteEventAndVerify</span>
+                <span class="method-start">13776 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

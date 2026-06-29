@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Event Management API Test Suite" verbose="1" parallel="none">
+
+    <!-- ======================================================== -->
+    <!--  Listeners                                                 -->
+    <!-- ======================================================== -->
+    <listeners>
+        <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+    </listeners>
+
+    <!-- ======================================================== -->
+    <!--  API Tests  (mirrors tests/api/ from Playwright suite)    -->
+    <!-- ======================================================== -->
+    <test name="API Tests">
+        <groups>
+            <run>
+                <include name="api"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.eventmanagement.tests.api.HealthApiTest"/>
+            <class name="com.eventmanagement.tests.api.AuthApiTest"/>
+            <class name="com.eventmanagement.tests.api.EventsApiTest"/>
+            <class name="com.eventmanagement.tests.api.BookingsApiTest"/>
+        </classes>
+    </test>
+
+    <!-- ======================================================== -->
+    <!--  Integration Tests  (mirrors tests/integration/)          -->
+    <!-- ======================================================== -->
+    <test name="Integration Tests">
+        <classes>
+            <class name="com.eventmanagement.tests.integration.ApiIntegrationTest"/>
+        </classes>
+    </test>
+
+    <!-- ======================================================== -->
+    <!--  Performance Tests  (mirrors tests/performance/)          -->
+    <!-- ======================================================== -->
+    <test name="Performance Tests">
+        <classes>
+            <class name="com.eventmanagement.tests.performance.PerformanceTest"/>
+        </classes>
+    </test>
+
+    <!-- ======================================================== -->
+    <!--  End-to-End Tests  (mirrors tests/e2e/)                   -->
+    <!-- ======================================================== -->
+    <test name="E2E Tests" preserve-order="true">
+        <classes>
+            <class name="com.eventmanagement.tests.e2e.FullJourneyTest"/>
+        </classes>
+    </test>
+
+</suite>

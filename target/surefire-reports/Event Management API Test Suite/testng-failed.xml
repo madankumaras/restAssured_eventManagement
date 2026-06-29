@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Event Management API Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg"/>
+  </listeners>
+  <test thread-count="5" name="E2E Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.eventmanagement.tests.e2e.FullJourneyTest">
+        <methods>
+          <include name="step7_DeleteEventAndVerify"/>
+          <include name="step2_LoginWithRegisteredUser"/>
+          <include name="step4_BookTheEvent"/>
+          <include name="setup"/>
+          <include name="step3_CreateEvent"/>
+          <include name="step6_CancelBookingAndVerifySeats"/>
+          <include name="step5_VerifyBookingInListing"/>
+          <include name="step1_RegisterNewUser"/>
+        </methods>
+      </class> <!-- com.eventmanagement.tests.e2e.FullJourneyTest -->
+    </classes>
+  </test> <!-- E2E Tests(failed) -->
+</suite> <!-- Failed suite [Event Management API Test Suite] -->

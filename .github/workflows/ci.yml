@@ -1,0 +1,70 @@
+name: RestAssured CI — Event Management API Tests
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:        # Allow manual triggers from GitHub UI
+
+jobs:
+  api-tests:
+    name: Run RestAssured API Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: ☕ Set up Java 11
+        uses: actions/setup-java@v4
+        with:
+          java-version: '11'
+          distribution: 'temurin'
+          cache: maven
+
+      - name: 🔑 Write config.properties from secrets
+        run: |
+          mkdir -p src/test/resources
+          cat > src/test/resources/config.properties << EOF
+          base.url=${{ secrets.BASE_URL }}
+          api.url=${{ secrets.API_URL }}
+          user.email=${{ secrets.USER_EMAIL }}
+          user.password=${{ secrets.USER_PASSWORD }}
+          EOF
+
+      - name: 📦 Cache Maven dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.m2/repository
+          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          restore-keys: |
+            ${{ runner.os }}-maven-
+
+      - name: 🧪 Run API Tests
+        run: mvn test --no-transfer-progress
+
+      - name: 📊 Generate Allure Report
+        if: always()
+        run: mvn allure:report --no-transfer-progress
+
+      - name: 📤 Upload Allure Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-results
+          path: target/allure-results/
+
+      - name: 📤 Upload Allure HTML Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: allure-report
+          path: target/site/allure-maven-plugin/
+
+      - name: 📤 Upload Surefire Reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: surefire-reports
+          path: target/surefire-reports/

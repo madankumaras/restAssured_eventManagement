@@ -1,0 +1,42 @@
+<div>POST to https://api.eventhub.rahulshettyacademy.com/api/events</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;Perf Test Event&quot;,
+    &quot;description&quot;: &quot;Ab saepe laboriosam ut vero consequatur. Et ratione sapiente modi corrupti ut. Ut dolores ut. Quis accusantium optio.&quot;,
+    &quot;category&quot;: &quot;Sports&quot;,
+    &quot;venue&quot;: &quot;373 Margy Falls, Amadoburgh&quot;,
+    &quot;city&quot;: &quot;Chennai&quot;,
+    &quot;eventDate&quot;: &quot;2026-04-29T15:06:42.887885&quot;,
+    &quot;price&quot;: 1380,
+    &quot;totalSeats&quot;: 204,
+    &quot;imageUrl&quot;: &quot;https://picsum.photos/seed/dd2176/800/400&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjAyLCJleHAiOjE3NzQzNDUwMDJ9.kp46oA8TEerLp7rHuQOkITZOAiwg2Axpe2gUO77cQuI</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://api.eventhub.rahulshettyacademy.com/api/events&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjAyLCJleHAiOjE3NzQzNDUwMDJ9.kp46oA8TEerLp7rHuQOkITZOAiwg2Axpe2gUO77cQuI&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;Perf Test Event&quot;,
+    &quot;description&quot;: &quot;Ab saepe laboriosam ut vero consequatur. Et ratione sapiente modi corrupti ut. Ut dolores ut. Quis accusantium optio.&quot;,
+    &quot;category&quot;: &quot;Sports&quot;,
+    &quot;venue&quot;: &quot;373 Margy Falls, Amadoburgh&quot;,
+    &quot;city&quot;: &quot;Chennai&quot;,
+    &quot;eventDate&quot;: &quot;2026-04-29T15:06:42.887885&quot;,
+    &quot;price&quot;: 1380,
+    &quot;totalSeats&quot;: 204,
+    &quot;imageUrl&quot;: &quot;https://picsum.photos/seed/dd2176/800/400&quot;
+}&#39;
+    </div>
+

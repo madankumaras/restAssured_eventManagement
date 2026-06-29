@@ -1,0 +1,15 @@
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/auth/AuthManager.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/base/TestBase.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/models/BookingPayload.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/models/EventPayload.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/models/UserPayload.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/tests/api/AuthApiTest.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/tests/api/BookingsApiTest.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/tests/api/EventsApiTest.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/tests/api/HealthApiTest.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/tests/e2e/FullJourneyTest.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/tests/integration/ApiIntegrationTest.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/tests/performance/PerformanceTest.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/utils/ApiClient.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/utils/ConfigReader.java
+/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/src/test/java/com/eventmanagement/utils/TestDataGenerator.java

@@ -1,0 +1,42 @@
+<div>POST to https://api.eventhub.rahulshettyacademy.com/api/events</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;E2E Full Journey Event&quot;,
+    &quot;description&quot;: &quot;Quia nulla odio possimus. Est qui rerum. Voluptatem officiis hic magnam error inventore vel sapiente. A reiciendis quibusdam deleniti blanditiis.&quot;,
+    &quot;category&quot;: &quot;Conference&quot;,
+    &quot;venue&quot;: &quot;49412 Rosenbaum Plains, South Tim&quot;,
+    &quot;city&quot;: &quot;Bangalore&quot;,
+    &quot;eventDate&quot;: &quot;2026-06-04T15:06:49.609208&quot;,
+    &quot;price&quot;: 4210,
+    &quot;totalSeats&quot;: 473,
+    &quot;imageUrl&quot;: &quot;https://picsum.photos/seed/561358/800/400&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjA5LCJleHAiOjE3NzQzNDUwMDl9.VMfTSnIcqjihMMcuy449bcKPsRH0W_YQEydLdadt7qY</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://api.eventhub.rahulshettyacademy.com/api/events&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjA5LCJleHAiOjE3NzQzNDUwMDl9.VMfTSnIcqjihMMcuy449bcKPsRH0W_YQEydLdadt7qY&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;E2E Full Journey Event&quot;,
+    &quot;description&quot;: &quot;Quia nulla odio possimus. Est qui rerum. Voluptatem officiis hic magnam error inventore vel sapiente. A reiciendis quibusdam deleniti blanditiis.&quot;,
+    &quot;category&quot;: &quot;Conference&quot;,
+    &quot;venue&quot;: &quot;49412 Rosenbaum Plains, South Tim&quot;,
+    &quot;city&quot;: &quot;Bangalore&quot;,
+    &quot;eventDate&quot;: &quot;2026-06-04T15:06:49.609208&quot;,
+    &quot;price&quot;: 4210,
+    &quot;totalSeats&quot;: 473,
+    &quot;imageUrl&quot;: &quot;https://picsum.photos/seed/561358/800/400&quot;
+}&#39;
+    </div>
+

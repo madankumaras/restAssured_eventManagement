@@ -1,0 +1,42 @@
+<div>POST to https://api.eventhub.rahulshettyacademy.com/api/events</div>
+
+    <h4>Body</h4>
+    <div>
+    <pre class="preformated-text">
+{
+    &quot;title&quot;: &quot;Integration Update Test&quot;,
+    &quot;description&quot;: &quot;Maxime nisi qui a fugit. Blanditiis autem aut vel. Velit ut molestias sunt qui. Repellendus labore eum vel quam quasi sed minus. Officia illo est natus quia.&quot;,
+    &quot;category&quot;: &quot;Concert&quot;,
+    &quot;venue&quot;: &quot;52239 Detra Lake, Lake Wendieton&quot;,
+    &quot;city&quot;: &quot;Bangalore&quot;,
+    &quot;eventDate&quot;: &quot;2026-09-08T15:08:14.503557&quot;,
+    &quot;price&quot;: 4171,
+    &quot;totalSeats&quot;: 249,
+    &quot;imageUrl&quot;: &quot;https://picsum.photos/seed/02jn4n/800/400&quot;
+}    </pre>
+    </div>
+
+    <h4>Headers</h4>
+    <div>
+            <div>Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw</div>
+            <div>Accept: */*</div>
+            <div>Content-Type: application/json</div>
+    </div>
+
+
+
+    <h4>Curl</h4>
+    <div>
+        curl -v -X POST &#39;https://api.eventhub.rahulshettyacademy.com/api/events&#39; -H &#39;Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw&#39; -H &#39;Accept: */*&#39; -H &#39;Content-Type: application/json&#39; -d &#39;{
+    &quot;title&quot;: &quot;Integration Update Test&quot;,
+    &quot;description&quot;: &quot;Maxime nisi qui a fugit. Blanditiis autem aut vel. Velit ut molestias sunt qui. Repellendus labore eum vel quam quasi sed minus. Officia illo est natus quia.&quot;,
+    &quot;category&quot;: &quot;Concert&quot;,
+    &quot;venue&quot;: &quot;52239 Detra Lake, Lake Wendieton&quot;,
+    &quot;city&quot;: &quot;Bangalore&quot;,
+    &quot;eventDate&quot;: &quot;2026-09-08T15:08:14.503557&quot;,
+    &quot;price&quot;: 4171,
+    &quot;totalSeats&quot;: 249,
+    &quot;imageUrl&quot;: &quot;https://picsum.photos/seed/02jn4n/800/400&quot;
+}&#39;
+    </div>
+

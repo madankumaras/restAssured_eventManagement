@@ -1,0 +1,2493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="TestSuite" time="19.531" tests="17" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/target/test-classes:/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/target/classes:/Users/madan/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/madan/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/madan/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/madan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/madan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/madan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/madan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/madan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/madan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/madan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/madan/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/madan/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/madan/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/madan/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/madan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/Users/madan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/Users/madan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/Users/madan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/madan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/madan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/madan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-testng/2.29.0/allure-testng-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-rest-assured/2.29.0/allure-rest-assured-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar:/Users/madan/.m2/repository/org/freemarker/freemarker/2.3.33/freemarker-2.3.33.jar:/Users/madan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/madan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/madan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/madan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/madan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/target/surefire/surefirebooter-20260317150805294_3.jar /Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/target/surefire 2026-03-17T15-08-05_250-jvmRun1 surefire-20260317150805294_1tmp surefire_0-20260317150805294_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/target/test-classes:/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/target/classes:/Users/madan/.m2/repository/io/rest-assured/rest-assured/5.5.0/rest-assured-5.5.0.jar:/Users/madan/.m2/repository/org/apache/groovy/groovy/4.0.22/groovy-4.0.22.jar:/Users/madan/.m2/repository/org/apache/groovy/groovy-xml/4.0.22/groovy-xml-4.0.22.jar:/Users/madan/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/madan/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/madan/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/madan/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/madan/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/madan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/madan/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/madan/.m2/repository/io/rest-assured/json-path/5.5.0/json-path-5.5.0.jar:/Users/madan/.m2/repository/org/apache/groovy/groovy-json/4.0.22/groovy-json-4.0.22.jar:/Users/madan/.m2/repository/io/rest-assured/rest-assured-common/5.5.0/rest-assured-common-5.5.0.jar:/Users/madan/.m2/repository/io/rest-assured/xml-path/5.5.0/xml-path-5.5.0.jar:/Users/madan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/Users/madan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/Users/madan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/Users/madan/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/madan/.m2/repository/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar:/Users/madan/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/madan/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-testng/2.29.0/allure-testng-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-java-commons/2.29.0/allure-java-commons-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-model/2.29.0/allure-model-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-test-filter/2.29.0/allure-test-filter-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-rest-assured/2.29.0/allure-rest-assured-2.29.0.jar:/Users/madan/.m2/repository/io/qameta/allure/allure-attachments/2.29.0/allure-attachments-2.29.0.jar:/Users/madan/.m2/repository/org/freemarker/freemarker/2.3.33/freemarker-2.3.33.jar:/Users/madan/.m2/repository/com/github/javafaker/javafaker/1.0.2/javafaker-1.0.2.jar:/Users/madan/.m2/repository/org/apache/commons/commons-lang3/3.5/commons-lang3-3.5.jar:/Users/madan/.m2/repository/org/yaml/snakeyaml/1.23/snakeyaml-1.23-android.jar:/Users/madan/.m2/repository/com/github/mifmif/generex/1.0.2/generex-1.0.2.jar:/Users/madan/.m2/repository/dk/brics/automaton/automaton/1.11-8/automaton-1.11-8.jar:"/>
+    <property name="allure.results.directory" value="/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/target/allure-results"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/madan"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.2/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite/target/surefire/surefirebooter-20260317150805294_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.2"/>
+    <property name="user.name" value="madan"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/madan/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/bt/9t6f56510px7qf3mbzc0xzs80000gp/T/"/>
+    <property name="java.version" value="25.0.2"/>
+    <property name="user.dir" value="/Users/madan/Documents/qa-RestAssured-eventManagement-test-Suite"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/madan/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.2"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="createEventThenBookIt" classname="com.eventmanagement.tests.integration.ApiIntegrationTest" time="0.545">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "mafdangowda8095@gmail.com",
+    "password": "Madan@123"
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:12 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+ETag: W/"112-nG8Qva4fQoe3/yvXGEWUhxdDhcI"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw",
+    "user": {
+        "id": 926,
+        "email": "mafdangowda8095@gmail.com"
+    }
+}
+Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Networked client-driven support 2025",
+    "description": "Reiciendis quas quo sit est et nihil ducimus. Dolor dignissimos deserunt rem optio omnis esse. Eos adipisci alias recusandae qui.",
+    "category": "Festival",
+    "venue": "6682 Moen Haven, Deanneview",
+    "city": "Delhi",
+    "eventDate": "2026-06-20T15:08:12.972428",
+    "price": 300,
+    "totalSeats": 50,
+    "imageUrl": "https://picsum.photos/seed/nga7f8/800/400"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:13 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 594
+ETag: W/"252-/JeDu7EvxwrrNMUWEvW150iyrKg"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4659,
+        "title": "Networked client-driven support 2025",
+        "description": "Reiciendis quas quo sit est et nihil ducimus. Dolor dignissimos deserunt rem optio omnis esse. Eos adipisci alias recusandae qui.",
+        "category": "Festival",
+        "venue": "6682 Moen Haven, Deanneview",
+        "city": "Delhi",
+        "eventDate": "2026-06-20T15:08:12.972Z",
+        "price": "300",
+        "totalSeats": 50,
+        "availableSeats": 50,
+        "imageUrl": "https://picsum.photos/seed/nga7f8/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:13.179Z",
+        "updatedAt": "2026-03-17T09:38:13.179Z"
+    },
+    "message": "Event created successfully"
+}
+Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "eventId": 4659,
+    "quantity": 3,
+    "customerName": "Monty McClure V",
+    "customerEmail": "joe.feeney@gmail.com",
+    "customerPhone": "+91-4298337341"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:13 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 893
+ETag: W/"37d-jmrSZyjqBa3c8rbDTzOxoRU17Kk"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4512,
+        "eventId": 4659,
+        "userId": 926,
+        "customerName": "Monty McClure V",
+        "customerEmail": "joefeeney@gmail.com",
+        "customerPhone": "+91-4298337341",
+        "quantity": 3,
+        "totalPrice": "900",
+        "status": "confirmed",
+        "bookingRef": "N-0PY1S2",
+        "createdAt": "2026-03-17T09:38:13.340Z",
+        "updatedAt": "2026-03-17T09:38:13.340Z",
+        "event": {
+            "id": 4659,
+            "title": "Networked client-driven support 2025",
+            "description": "Reiciendis quas quo sit est et nihil ducimus. Dolor dignissimos deserunt rem optio omnis esse. Eos adipisci alias recusandae qui.",
+            "category": "Festival",
+            "venue": "6682 Moen Haven, Deanneview",
+            "city": "Delhi",
+            "eventDate": "2026-06-20T15:08:12.972Z",
+            "price": "300",
+            "totalSeats": 50,
+            "availableSeats": 50,
+            "imageUrl": "https://picsum.photos/seed/nga7f8/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:13.179Z",
+            "updatedAt": "2026-03-17T09:38:13.179Z"
+        }
+    },
+    "message": "Booking confirmed!"
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4659
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4659
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:13 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 555
+ETag: W/"22b-AFk4oVcTnMNO+7jINFyrdUsSqHg"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4659,
+        "title": "Networked client-driven support 2025",
+        "description": "Reiciendis quas quo sit est et nihil ducimus. Dolor dignissimos deserunt rem optio omnis esse. Eos adipisci alias recusandae qui.",
+        "category": "Festival",
+        "venue": "6682 Moen Haven, Deanneview",
+        "city": "Delhi",
+        "eventDate": "2026-06-20T15:08:12.972Z",
+        "price": "300",
+        "totalSeats": 50,
+        "availableSeats": 47,
+        "imageUrl": "https://picsum.photos/seed/nga7f8/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:13.179Z",
+        "updatedAt": "2026-03-17T09:38:13.179Z"
+    }
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="fullBookingLifecycle" classname="com.eventmanagement.tests.integration.ApiIntegrationTest" time="0.663">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Innovative tangible contingency 2025",
+    "description": "Qui eaque vitae explicabo. Excepturi reprehenderit nihil. Molestias aperiam et tempore quas. Non omnis ut sunt ipsum.",
+    "category": "Festival",
+    "venue": "4682 Erdman Drive, Lake Erwin",
+    "city": "Pune",
+    "eventDate": "2026-06-14T15:08:13.496654",
+    "price": 100,
+    "totalSeats": 30,
+    "imageUrl": "https://picsum.photos/seed/6w0434/800/400"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:13 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 583
+ETag: W/"247-ycJQa6YJaDh6EP3PpaiKYfnBCFU"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4660,
+        "title": "Innovative tangible contingency 2025",
+        "description": "Qui eaque vitae explicabo. Excepturi reprehenderit nihil. Molestias aperiam et tempore quas. Non omnis ut sunt ipsum.",
+        "category": "Festival",
+        "venue": "4682 Erdman Drive, Lake Erwin",
+        "city": "Pune",
+        "eventDate": "2026-06-14T15:08:13.496Z",
+        "price": "100",
+        "totalSeats": 30,
+        "availableSeats": 30,
+        "imageUrl": "https://picsum.photos/seed/6w0434/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:13.621Z",
+        "updatedAt": "2026-03-17T09:38:13.621Z"
+    },
+    "message": "Event created successfully"
+}
+Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "eventId": 4660,
+    "quantity": 2,
+    "customerName": "Dr. Marquetta Nader",
+    "customerEmail": "jamaal.kub@yahoo.com",
+    "customerPhone": "+91-2052098855"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:13 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 887
+ETag: W/"377-8o2o/R7lukZeIGdG5lLkdUJ4gSY"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4513,
+        "eventId": 4660,
+        "userId": 926,
+        "customerName": "Dr. Marquetta Nader",
+        "customerEmail": "jamaal.kub@yahoo.com",
+        "customerPhone": "+91-2052098855",
+        "quantity": 2,
+        "totalPrice": "200",
+        "status": "confirmed",
+        "bookingRef": "I-L6XJ55",
+        "createdAt": "2026-03-17T09:38:13.744Z",
+        "updatedAt": "2026-03-17T09:38:13.744Z",
+        "event": {
+            "id": 4660,
+            "title": "Innovative tangible contingency 2025",
+            "description": "Qui eaque vitae explicabo. Excepturi reprehenderit nihil. Molestias aperiam et tempore quas. Non omnis ut sunt ipsum.",
+            "category": "Festival",
+            "venue": "4682 Erdman Drive, Lake Erwin",
+            "city": "Pune",
+            "eventDate": "2026-06-14T15:08:13.496Z",
+            "price": "100",
+            "totalSeats": 30,
+            "availableSeats": 30,
+            "imageUrl": "https://picsum.photos/seed/6w0434/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:13.621Z",
+            "updatedAt": "2026-03-17T09:38:13.621Z"
+        }
+    },
+    "message": "Booking confirmed!"
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings/ref/I-L6XJ55
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	ref=I-L6XJ55
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:13 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 856
+ETag: W/"358-vhjrKCKVqNznhSHoz3JsykJPFOg"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4513,
+        "eventId": 4660,
+        "userId": 926,
+        "customerName": "Dr. Marquetta Nader",
+        "customerEmail": "jamaal.kub@yahoo.com",
+        "customerPhone": "+91-2052098855",
+        "quantity": 2,
+        "totalPrice": "200",
+        "status": "confirmed",
+        "bookingRef": "I-L6XJ55",
+        "createdAt": "2026-03-17T09:38:13.744Z",
+        "updatedAt": "2026-03-17T09:38:13.744Z",
+        "event": {
+            "id": 4660,
+            "title": "Innovative tangible contingency 2025",
+            "description": "Qui eaque vitae explicabo. Excepturi reprehenderit nihil. Molestias aperiam et tempore quas. Non omnis ut sunt ipsum.",
+            "category": "Festival",
+            "venue": "4682 Erdman Drive, Lake Erwin",
+            "city": "Pune",
+            "eventDate": "2026-06-14T15:08:13.496Z",
+            "price": "100",
+            "totalSeats": 30,
+            "availableSeats": 30,
+            "imageUrl": "https://picsum.photos/seed/6w0434/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:13.621Z",
+            "updatedAt": "2026-03-17T09:38:13.621Z"
+        }
+    }
+}
+Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings/4513
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4513
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 46
+ETag: W/"2e-ZzefWV9z74FsUotarh0dpXKMDns"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Booking cancelled"
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4660
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4660
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 544
+ETag: W/"220-NY2sQgSbkOga4Y0ESNbEcLj2H3w"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4660,
+        "title": "Innovative tangible contingency 2025",
+        "description": "Qui eaque vitae explicabo. Excepturi reprehenderit nihil. Molestias aperiam et tempore quas. Non omnis ut sunt ipsum.",
+        "category": "Festival",
+        "venue": "4682 Erdman Drive, Lake Erwin",
+        "city": "Pune",
+        "eventDate": "2026-06-14T15:08:13.496Z",
+        "price": "100",
+        "totalSeats": 30,
+        "availableSeats": 30,
+        "imageUrl": "https://picsum.photos/seed/6w0434/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:13.621Z",
+        "updatedAt": "2026-03-17T09:38:13.621Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="singleTokenShouldAccessAllResources" classname="com.eventmanagement.tests.integration.ApiIntegrationTest" time="0.342">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 108
+ETag: W/"6c-bttECXlPs0sBuZPJ0kdNu+VXvjY"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "user": {
+        "userId": 926,
+        "email": "mafdangowda8095@gmail.com",
+        "iat": 1773740292,
+        "exp": 1774345092
+    }
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 5490
+ETag: W/"1572-swrerdq/resCVkwXVnYr23kgvlg"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": [
+        {
+            "id": 3,
+            "title": "Dilli Diwali Mela",
+            "description": "Celebrate the Festival of Lights at the grandest Diwali Mela in North India. Enjoy 200+ stalls of artisanal crafts, street food, folk performances, fireworks, and cultural showcases spanning three vibrant evenings.",
+            "category": "Festival",
+            "venue": "Pragati Maidan Exhibition Grounds",
+            "city": "Delhi",
+            "eventDate": "2026-10-20T17:00:00.000Z",
+            "price": "300",
+            "totalSeats": 10000,
+            "availableSeats": 9999,
+            "imageUrl": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800",
+            "isStatic": true,
+            "userId": null,
+            "createdAt": "2026-02-22T23:03:37.680Z",
+            "updatedAt": "2026-03-17T09:19:26.231Z"
+        },
+        {
+            "id": 2,
+            "title": "Hollywood Monsoon Night — Los Angeles",
+            "description": "An unforgettable evening of live music performed by A-list playback singers under the open Mumbai sky. Featuring chart-toppers from the last three decades with a stunning light show and pyrotechnics.",
+            "category": "Concert",
+            "venue": "Dome, NSCI SVP Stadium, Worli",
+            "city": "Los Angeles",
+            "eventDate": "2026-07-11T19:00:00.000Z",
+            "price": "2500",
+            "totalSeats": 3000,
+            "availableSeats": 3000,
+            "imageUrl": "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800",
+            "isStatic": true,
+            "userId": null,
+            "createdAt": "2026-02-22T23:03:37.669Z",
+            "updatedAt": "2026-03-09T14:52:05.370Z"
+        },
+        {
+            "id": 1,
+            "title": "World Tech Summit",
+            "description": "A premier technology conference bringing together 500+ industry leaders, startup founders, and engineers for two days of keynotes, workshops, and networking. Topics include AI/ML, cloud infrastructure, DevSecOps, and the future of the Indian tech ecosystem.",
+            "category": "Conference",
+            "venue": "Hyderabad, Hitech city",
+            "city": "Hyderabad",
+            "eventDate": "2026-04-18T09:00:00.000Z",
+            "price": "1500",
+            "totalSeats": 500,
+            "availableSeats": 500,
+            "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+            "isStatic": true,
+            "userId": null,
+            "createdAt": "2026-02-22T23:03:37.659Z",
+            "updatedAt": "2026-02-22T23:03:37.659Z"
+        },
+        {
+            "id": 4660,
+            "title": "Innovative tangible contingency 2025",
+            "description": "Qui eaque vitae explicabo. Excepturi reprehenderit nihil. Molestias aperiam et tempore quas. Non omnis ut sunt ipsum.",
+            "category": "Festival",
+            "venue": "4682 Erdman Drive, Lake Erwin",
+            "city": "Pune",
+            "eventDate": "2026-06-14T15:08:13.496Z",
+            "price": "100",
+            "totalSeats": 30,
+            "availableSeats": 30,
+            "imageUrl": "https://picsum.photos/seed/6w0434/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:13.621Z",
+            "updatedAt": "2026-03-17T09:38:13.621Z"
+        },
+        {
+            "id": 4659,
+            "title": "Networked client-driven support 2025",
+            "description": "Reiciendis quas quo sit est et nihil ducimus. Dolor dignissimos deserunt rem optio omnis esse. Eos adipisci alias recusandae qui.",
+            "category": "Festival",
+            "venue": "6682 Moen Haven, Deanneview",
+            "city": "Delhi",
+            "eventDate": "2026-06-20T15:08:12.972Z",
+            "price": "300",
+            "totalSeats": 50,
+            "availableSeats": 47,
+            "imageUrl": "https://picsum.photos/seed/nga7f8/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:13.179Z",
+            "updatedAt": "2026-03-17T09:38:13.179Z"
+        },
+        {
+            "id": 4658,
+            "title": "E2E Full Journey Event",
+            "description": "Tenetur rerum natus quia esse. Officia non velit. Aspernatur aspernatur qui quia blanditiis.",
+            "category": "Conference",
+            "venue": "6889 Jannie Manor, West Auroraport",
+            "city": "Hyderabad",
+            "eventDate": "2026-06-07T15:07:22.695Z",
+            "price": "1439",
+            "totalSeats": 200,
+            "availableSeats": 198,
+            "imageUrl": "https://picsum.photos/seed/7iks2m/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:37:22.890Z",
+            "updatedAt": "2026-03-17T09:37:22.890Z"
+        },
+        {
+            "id": 4657,
+            "title": "E2E Full Journey Event",
+            "description": "Quia nulla odio possimus. Est qui rerum. Voluptatem officiis hic magnam error inventore vel sapiente. A reiciendis quibusdam deleniti blanditiis.",
+            "category": "Conference",
+            "venue": "49412 Rosenbaum Plains, South Tim",
+            "city": "Bangalore",
+            "eventDate": "2026-06-04T15:06:49.609Z",
+            "price": "4210",
+            "totalSeats": 473,
+            "availableSeats": 471,
+            "imageUrl": "https://picsum.photos/seed/561358/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:36:49.714Z",
+            "updatedAt": "2026-03-17T09:36:49.714Z"
+        },
+        {
+            "id": 4509,
+            "title": "Debug Test",
+            "description": "Desc",
+            "category": "Music",
+            "venue": "Venue",
+            "city": "Mumbai",
+            "eventDate": "2026-04-15T10:00:00.000Z",
+            "price": "500",
+            "totalSeats": 100,
+            "availableSeats": 100,
+            "imageUrl": "https://picsum.photos/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T05:55:18.920Z",
+            "updatedAt": "2026-03-17T05:55:18.920Z"
+        },
+        {
+            "id": 4320,
+            "title": "Booking Test Event",
+            "description": "Adsum approbo sol. Demonstro laborum curia comprehendo aspicio. Denego volup clibanus.",
+            "category": "Workshop",
+            "venue": "767 Megane Station, Fort Pamela",
+            "city": "Chennai",
+            "eventDate": "2026-03-31T17:27:00.431Z",
+            "price": "500",
+            "totalSeats": 100,
+            "availableSeats": 100,
+            "imageUrl": "https://picsum.photos/seed/kDXB51/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T04:04:13.498Z",
+            "updatedAt": "2026-03-17T04:04:13.498Z"
+        },
+        {
+            "id": 4318,
+            "title": "Booking Test Event",
+            "description": "Cuppedia defetiscor cohibeo volaticus coerceo. Annus colligo arceo placeat certus trans. Clementia utor celo vae veritas convoco cognomen consuasor thesis.",
+            "category": "Festival",
+            "venue": "4364 Quarry Road, Loweton",
+            "city": "Chennai",
+            "eventDate": "2026-06-05T10:02:11.674Z",
+            "price": "500",
+            "totalSeats": 100,
+            "availableSeats": 100,
+            "imageUrl": "https://picsum.photos/seed/QXhfyw/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T04:04:13.497Z",
+            "updatedAt": "2026-03-17T04:04:13.497Z"
+        }
+    ],
+    "pagination": {
+        "total": 13,
+        "page": 1,
+        "limit": 10,
+        "totalPages": 2
+    }
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 3509
+ETag: W/"db5-a4+hHq4mvKIwc3U5n7sLFwauJlc"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": [
+        {
+            "id": 4512,
+            "eventId": 4659,
+            "userId": 926,
+            "customerName": "Monty McClure V",
+            "customerEmail": "joefeeney@gmail.com",
+            "customerPhone": "+91-4298337341",
+            "quantity": 3,
+            "totalPrice": "900",
+            "status": "confirmed",
+            "bookingRef": "N-0PY1S2",
+            "createdAt": "2026-03-17T09:38:13.340Z",
+            "updatedAt": "2026-03-17T09:38:13.340Z",
+            "event": {
+                "id": 4659,
+                "title": "Networked client-driven support 2025",
+                "description": "Reiciendis quas quo sit est et nihil ducimus. Dolor dignissimos deserunt rem optio omnis esse. Eos adipisci alias recusandae qui.",
+                "category": "Festival",
+                "venue": "6682 Moen Haven, Deanneview",
+                "city": "Delhi",
+                "eventDate": "2026-06-20T15:08:12.972Z",
+                "price": "300",
+                "totalSeats": 50,
+                "availableSeats": 50,
+                "imageUrl": "https://picsum.photos/seed/nga7f8/800/400",
+                "isStatic": false,
+                "userId": 926,
+                "createdAt": "2026-03-17T09:38:13.179Z",
+                "updatedAt": "2026-03-17T09:38:13.179Z"
+            }
+        },
+        {
+            "id": 4511,
+            "eventId": 4658,
+            "userId": 926,
+            "customerName": "Louie Collins",
+            "customerEmail": "werner.pollich@yahoo.com",
+            "customerPhone": "+91-6336468535",
+            "quantity": 2,
+            "totalPrice": "2878",
+            "status": "confirmed",
+            "bookingRef": "E-NCZITV",
+            "createdAt": "2026-03-17T09:37:23.026Z",
+            "updatedAt": "2026-03-17T09:37:23.026Z",
+            "event": {
+                "id": 4658,
+                "title": "E2E Full Journey Event",
+                "description": "Tenetur rerum natus quia esse. Officia non velit. Aspernatur aspernatur qui quia blanditiis.",
+                "category": "Conference",
+                "venue": "6889 Jannie Manor, West Auroraport",
+                "city": "Hyderabad",
+                "eventDate": "2026-06-07T15:07:22.695Z",
+                "price": "1439",
+                "totalSeats": 200,
+                "availableSeats": 200,
+                "imageUrl": "https://picsum.photos/seed/7iks2m/800/400",
+                "isStatic": false,
+                "userId": 926,
+                "createdAt": "2026-03-17T09:37:22.890Z",
+                "updatedAt": "2026-03-17T09:37:22.890Z"
+            }
+        },
+        {
+            "id": 4510,
+            "eventId": 4657,
+            "userId": 926,
+            "customerName": "Mose Keebler",
+            "customerEmail": "earnest.lubowitz@hotmail.com",
+            "customerPhone": "+91-8246759186",
+            "quantity": 2,
+            "totalPrice": "8420",
+            "status": "confirmed",
+            "bookingRef": "E-578JMF",
+            "createdAt": "2026-03-17T09:36:50.395Z",
+            "updatedAt": "2026-03-17T09:36:50.395Z",
+            "event": {
+                "id": 4657,
+                "title": "E2E Full Journey Event",
+                "description": "Quia nulla odio possimus. Est qui rerum. Voluptatem officiis hic magnam error inventore vel sapiente. A reiciendis quibusdam deleniti blanditiis.",
+                "category": "Conference",
+                "venue": "49412 Rosenbaum Plains, South Tim",
+                "city": "Bangalore",
+                "eventDate": "2026-06-04T15:06:49.609Z",
+                "price": "4210",
+                "totalSeats": 473,
+                "availableSeats": 473,
+                "imageUrl": "https://picsum.photos/seed/561358/800/400",
+                "isStatic": false,
+                "userId": 926,
+                "createdAt": "2026-03-17T09:36:49.714Z",
+                "updatedAt": "2026-03-17T09:36:49.714Z"
+            }
+        },
+        {
+            "id": 4430,
+            "eventId": 3,
+            "userId": 926,
+            "customerName": "Test",
+            "customerEmail": "test@test.com",
+            "customerPhone": "1234567890",
+            "quantity": 1,
+            "totalPrice": "300",
+            "status": "confirmed",
+            "bookingRef": "D-6GR5BP",
+            "createdAt": "2026-03-17T05:57:49.498Z",
+            "updatedAt": "2026-03-17T05:57:49.498Z",
+            "event": {
+                "id": 3,
+                "title": "Dilli Diwali Mela",
+                "description": "Celebrate the Festival of Lights at the grandest Diwali Mela in North India. Enjoy 200+ stalls of artisanal crafts, street food, folk performances, fireworks, and cultural showcases spanning three vibrant evenings.",
+                "category": "Festival",
+                "venue": "Pragati Maidan Exhibition Grounds",
+                "city": "Delhi",
+                "eventDate": "2026-10-20T17:00:00.000Z",
+                "price": "300",
+                "totalSeats": 10000,
+                "availableSeats": 9060,
+                "imageUrl": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800",
+                "isStatic": true,
+                "userId": null,
+                "createdAt": "2026-02-22T23:03:37.680Z",
+                "updatedAt": "2026-03-17T09:19:26.231Z"
+            }
+        }
+    ],
+    "pagination": {
+        "total": 4,
+        "page": 1,
+        "limit": 10,
+        "totalPages": 1
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="updateEventAndVerifyViaGet" classname="com.eventmanagement.tests.integration.ApiIntegrationTest" time="0.426">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Integration Update Test",
+    "description": "Maxime nisi qui a fugit. Blanditiis autem aut vel. Velit ut molestias sunt qui. Repellendus labore eum vel quam quasi sed minus. Officia illo est natus quia.",
+    "category": "Concert",
+    "venue": "52239 Detra Lake, Lake Wendieton",
+    "city": "Bangalore",
+    "eventDate": "2026-09-08T15:08:14.503557",
+    "price": 4171,
+    "totalSeats": 249,
+    "imageUrl": "https://picsum.photos/seed/02jn4n/800/400"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 620
+ETag: W/"26c-x8x252KU0NjNHlxvDYWF4QfI7/8"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4661,
+        "title": "Integration Update Test",
+        "description": "Maxime nisi qui a fugit. Blanditiis autem aut vel. Velit ut molestias sunt qui. Repellendus labore eum vel quam quasi sed minus. Officia illo est natus quia.",
+        "category": "Concert",
+        "venue": "52239 Detra Lake, Lake Wendieton",
+        "city": "Bangalore",
+        "eventDate": "2026-09-08T15:08:14.503Z",
+        "price": "4171",
+        "totalSeats": 249,
+        "availableSeats": 249,
+        "imageUrl": "https://picsum.photos/seed/02jn4n/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:14.621Z",
+        "updatedAt": "2026-03-17T09:38:14.621Z"
+    },
+    "message": "Event created successfully"
+}
+Request method:	PUT
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4661
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4661
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Integration Updated Title",
+    "description": "Maxime nisi qui a fugit. Blanditiis autem aut vel. Velit ut molestias sunt qui. Repellendus labore eum vel quam quasi sed minus. Officia illo est natus quia.",
+    "category": "Concert",
+    "venue": "52239 Detra Lake, Lake Wendieton",
+    "city": "Bangalore",
+    "eventDate": "2026-09-08T15:08:14.503557",
+    "price": 7777,
+    "totalSeats": 249,
+    "imageUrl": "https://picsum.photos/seed/02jn4n/800/400"
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 622
+ETag: W/"26e-n93SBnRHkh12pjpb8tIF6y1lUQg"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4661,
+        "title": "Integration Updated Title",
+        "description": "Maxime nisi qui a fugit. Blanditiis autem aut vel. Velit ut molestias sunt qui. Repellendus labore eum vel quam quasi sed minus. Officia illo est natus quia.",
+        "category": "Concert",
+        "venue": "52239 Detra Lake, Lake Wendieton",
+        "city": "Bangalore",
+        "eventDate": "2026-09-08T15:08:14.503Z",
+        "price": "7777",
+        "totalSeats": 249,
+        "availableSeats": 249,
+        "imageUrl": "https://picsum.photos/seed/02jn4n/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:14.621Z",
+        "updatedAt": "2026-03-17T09:38:14.760Z"
+    },
+    "message": "Event updated successfully"
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4661
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4661
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:14 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 583
+ETag: W/"247-n2lBhdZxWB2z5LzYV39Gs0Eg3So"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4661,
+        "title": "Integration Updated Title",
+        "description": "Maxime nisi qui a fugit. Blanditiis autem aut vel. Velit ut molestias sunt qui. Repellendus labore eum vel quam quasi sed minus. Officia illo est natus quia.",
+        "category": "Concert",
+        "venue": "52239 Detra Lake, Lake Wendieton",
+        "city": "Bangalore",
+        "eventDate": "2026-09-08T15:08:14.503Z",
+        "price": "7777",
+        "totalSeats": 249,
+        "availableSeats": 249,
+        "imageUrl": "https://picsum.photos/seed/02jn4n/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:14.621Z",
+        "updatedAt": "2026-03-17T09:38:14.760Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createEventEndpointShouldRespondUnder2s" classname="com.eventmanagement.tests.performance.PerformanceTest" time="0.142">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings/4512
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4512
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 46
+ETag: W/"2e-ZzefWV9z74FsUotarh0dpXKMDns"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Booking cancelled"
+}
+Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings/4513
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4513
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Tue, 17 Mar 2026 09:38:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 58
+ETag: W/"3a-qKY1rIe5833zUiRm/qnwvD7eKas"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": false,
+    "error": "Booking with id 4513 not found"
+}
+Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4659
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4659
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 55
+ETag: W/"37-Qo9mb78Y7s+pUu+WpmJap/uNXdc"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Event deleted successfully"
+}
+Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4660
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4660
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 55
+ETag: W/"37-Qo9mb78Y7s+pUu+WpmJap/uNXdc"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Event deleted successfully"
+}
+Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4661
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4661
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjkyLCJleHAiOjE3NzQzNDUwOTJ9.OIb33UwOlI8XPXComogiB7s6g9Lv7MifVV6hP-MpQQw
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 55
+ETag: W/"37-Qo9mb78Y7s+pUu+WpmJap/uNXdc"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Event deleted successfully"
+}
+Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "mafdangowda8095@gmail.com",
+    "password": "Madan@123"
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+ETag: W/"112-JwymZhT59BUF50grOxDIZvCX50k"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjk1LCJleHAiOjE3NzQzNDUwOTV9.0YF4ByIaIX-JoJW1vkMnjiwNfOAIx37si6hsejIz2gs",
+    "user": {
+        "id": 926,
+        "email": "mafdangowda8095@gmail.com"
+    }
+}
+Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjk1LCJleHAiOjE3NzQzNDUwOTV9.0YF4ByIaIX-JoJW1vkMnjiwNfOAIx37si6hsejIz2gs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Perf Test Event",
+    "description": "Incidunt odio consequatur voluptatem sunt. Magnam facilis sunt laboriosam. Deleniti facilis distinctio corrupti aut voluptatem.",
+    "category": "Sports",
+    "venue": "713 Brooke Harbors, Port Elenehaven",
+    "city": "Mumbai",
+    "eventDate": "2026-07-18T15:08:15.836087",
+    "price": 517,
+    "totalSeats": 184,
+    "imageUrl": "https://picsum.photos/seed/281037/800/400"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:15 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 580
+ETag: W/"244-wc6Ptt7qmwt1ugx7uC8Eh9B9ndo"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4662,
+        "title": "Perf Test Event",
+        "description": "Incidunt odio consequatur voluptatem sunt. Magnam facilis sunt laboriosam. Deleniti facilis distinctio corrupti aut voluptatem.",
+        "category": "Sports",
+        "venue": "713 Brooke Harbors, Port Elenehaven",
+        "city": "Mumbai",
+        "eventDate": "2026-07-18T15:08:15.836Z",
+        "price": "517",
+        "totalSeats": 184,
+        "availableSeats": 184,
+        "imageUrl": "https://picsum.photos/seed/281037/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:15.958Z",
+        "updatedAt": "2026-03-17T09:38:15.958Z"
+    },
+    "message": "Event created successfully"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getEventByIdShouldRespondUnder2s" classname="com.eventmanagement.tests.performance.PerformanceTest" time="0.265">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjk1LCJleHAiOjE3NzQzNDUwOTV9.0YF4ByIaIX-JoJW1vkMnjiwNfOAIx37si6hsejIz2gs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "Perf GetById Event",
+    "description": "Libero incidunt dolores quibusdam autem illo sit corrupti. Dolorem consectetur qui maiores voluptatem dolores. Vel iste quisquam maxime assumenda et nihil. In et recusandae minus nostrum. Minima libero maxime illum ipsam laborum.",
+    "category": "Sports",
+    "venue": "47625 Mickey Pike, Collierview",
+    "city": "Delhi",
+    "eventDate": "2026-06-17T15:08:15.979077",
+    "price": 2634,
+    "totalSeats": 239,
+    "imageUrl": "https://picsum.photos/seed/4238r3/800/400"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:16 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 680
+ETag: W/"2a8-FsmsIyMFLOARQSjL+CFwGQ9xbM0"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4663,
+        "title": "Perf GetById Event",
+        "description": "Libero incidunt dolores quibusdam autem illo sit corrupti. Dolorem consectetur qui maiores voluptatem dolores. Vel iste quisquam maxime assumenda et nihil. In et recusandae minus nostrum. Minima libero maxime illum ipsam laborum.",
+        "category": "Sports",
+        "venue": "47625 Mickey Pike, Collierview",
+        "city": "Delhi",
+        "eventDate": "2026-06-17T15:08:15.979Z",
+        "price": "2634",
+        "totalSeats": 239,
+        "availableSeats": 239,
+        "imageUrl": "https://picsum.photos/seed/4238r3/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:16.107Z",
+        "updatedAt": "2026-03-17T09:38:16.107Z"
+    },
+    "message": "Event created successfully"
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4663
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4663
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjk1LCJleHAiOjE3NzQzNDUwOTV9.0YF4ByIaIX-JoJW1vkMnjiwNfOAIx37si6hsejIz2gs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:16 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 641
+ETag: W/"281-SeAUH01MNBK+Ulk8ppBacSDVGHo"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4663,
+        "title": "Perf GetById Event",
+        "description": "Libero incidunt dolores quibusdam autem illo sit corrupti. Dolorem consectetur qui maiores voluptatem dolores. Vel iste quisquam maxime assumenda et nihil. In et recusandae minus nostrum. Minima libero maxime illum ipsam laborum.",
+        "category": "Sports",
+        "venue": "47625 Mickey Pike, Collierview",
+        "city": "Delhi",
+        "eventDate": "2026-06-17T15:08:15.979Z",
+        "price": "2634",
+        "totalSeats": 239,
+        "availableSeats": 239,
+        "imageUrl": "https://picsum.photos/seed/4238r3/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:16.107Z",
+        "updatedAt": "2026-03-17T09:38:16.107Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="healthEndpointShouldRespondUnder2s" classname="com.eventmanagement.tests.performance.PerformanceTest" time="5.122">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/health
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 77
+ETag: W/"4d-ljGLec6cDcGV3loiDoVCwV8E1ak"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "status": "ok",
+    "timestamp": "2026-03-17T09:38:21.362Z",
+    "dbStatus": "connected"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="listBookingsEndpointShouldRespondUnder2s" classname="com.eventmanagement.tests.performance.PerformanceTest" time="0.127">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings?limit=10&page=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	limit=10
+				page=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjk1LCJleHAiOjE3NzQzNDUwOTV9.0YF4ByIaIX-JoJW1vkMnjiwNfOAIx37si6hsejIz2gs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 2670
+ETag: W/"a6e-qGR4y33EBIb7T1+h6PivLnMkzlc"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": [
+        {
+            "id": 4511,
+            "eventId": 4658,
+            "userId": 926,
+            "customerName": "Louie Collins",
+            "customerEmail": "werner.pollich@yahoo.com",
+            "customerPhone": "+91-6336468535",
+            "quantity": 2,
+            "totalPrice": "2878",
+            "status": "confirmed",
+            "bookingRef": "E-NCZITV",
+            "createdAt": "2026-03-17T09:37:23.026Z",
+            "updatedAt": "2026-03-17T09:37:23.026Z",
+            "event": {
+                "id": 4658,
+                "title": "E2E Full Journey Event",
+                "description": "Tenetur rerum natus quia esse. Officia non velit. Aspernatur aspernatur qui quia blanditiis.",
+                "category": "Conference",
+                "venue": "6889 Jannie Manor, West Auroraport",
+                "city": "Hyderabad",
+                "eventDate": "2026-06-07T15:07:22.695Z",
+                "price": "1439",
+                "totalSeats": 200,
+                "availableSeats": 200,
+                "imageUrl": "https://picsum.photos/seed/7iks2m/800/400",
+                "isStatic": false,
+                "userId": 926,
+                "createdAt": "2026-03-17T09:37:22.890Z",
+                "updatedAt": "2026-03-17T09:37:22.890Z"
+            }
+        },
+        {
+            "id": 4510,
+            "eventId": 4657,
+            "userId": 926,
+            "customerName": "Mose Keebler",
+            "customerEmail": "earnest.lubowitz@hotmail.com",
+            "customerPhone": "+91-8246759186",
+            "quantity": 2,
+            "totalPrice": "8420",
+            "status": "confirmed",
+            "bookingRef": "E-578JMF",
+            "createdAt": "2026-03-17T09:36:50.395Z",
+            "updatedAt": "2026-03-17T09:36:50.395Z",
+            "event": {
+                "id": 4657,
+                "title": "E2E Full Journey Event",
+                "description": "Quia nulla odio possimus. Est qui rerum. Voluptatem officiis hic magnam error inventore vel sapiente. A reiciendis quibusdam deleniti blanditiis.",
+                "category": "Conference",
+                "venue": "49412 Rosenbaum Plains, South Tim",
+                "city": "Bangalore",
+                "eventDate": "2026-06-04T15:06:49.609Z",
+                "price": "4210",
+                "totalSeats": 473,
+                "availableSeats": 473,
+                "imageUrl": "https://picsum.photos/seed/561358/800/400",
+                "isStatic": false,
+                "userId": 926,
+                "createdAt": "2026-03-17T09:36:49.714Z",
+                "updatedAt": "2026-03-17T09:36:49.714Z"
+            }
+        },
+        {
+            "id": 4430,
+            "eventId": 3,
+            "userId": 926,
+            "customerName": "Test",
+            "customerEmail": "test@test.com",
+            "customerPhone": "1234567890",
+            "quantity": 1,
+            "totalPrice": "300",
+            "status": "confirmed",
+            "bookingRef": "D-6GR5BP",
+            "createdAt": "2026-03-17T05:57:49.498Z",
+            "updatedAt": "2026-03-17T05:57:49.498Z",
+            "event": {
+                "id": 3,
+                "title": "Dilli Diwali Mela",
+                "description": "Celebrate the Festival of Lights at the grandest Diwali Mela in North India. Enjoy 200+ stalls of artisanal crafts, street food, folk performances, fireworks, and cultural showcases spanning three vibrant evenings.",
+                "category": "Festival",
+                "venue": "Pragati Maidan Exhibition Grounds",
+                "city": "Delhi",
+                "eventDate": "2026-10-20T17:00:00.000Z",
+                "price": "300",
+                "totalSeats": 10000,
+                "availableSeats": 9060,
+                "imageUrl": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800",
+                "isStatic": true,
+                "userId": null,
+                "createdAt": "2026-02-22T23:03:37.680Z",
+                "updatedAt": "2026-03-17T09:19:26.231Z"
+            }
+        }
+    ],
+    "pagination": {
+        "total": 3,
+        "page": 1,
+        "limit": 10,
+        "totalPages": 1
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="listEventsEndpointShouldRespondUnder2s" classname="com.eventmanagement.tests.performance.PerformanceTest" time="0.117">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events?limit=10&page=1
+Proxy:			<none>
+Request params:	<none>
+Query params:	limit=10
+				page=1
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjk1LCJleHAiOjE3NzQzNDUwOTV9.0YF4ByIaIX-JoJW1vkMnjiwNfOAIx37si6hsejIz2gs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 5604
+ETag: W/"15e4-2yEOh7yRt6dd/x0LFAAOyF3UdlU"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": [
+        {
+            "id": 3,
+            "title": "Dilli Diwali Mela",
+            "description": "Celebrate the Festival of Lights at the grandest Diwali Mela in North India. Enjoy 200+ stalls of artisanal crafts, street food, folk performances, fireworks, and cultural showcases spanning three vibrant evenings.",
+            "category": "Festival",
+            "venue": "Pragati Maidan Exhibition Grounds",
+            "city": "Delhi",
+            "eventDate": "2026-10-20T17:00:00.000Z",
+            "price": "300",
+            "totalSeats": 10000,
+            "availableSeats": 9999,
+            "imageUrl": "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?w=800",
+            "isStatic": true,
+            "userId": null,
+            "createdAt": "2026-02-22T23:03:37.680Z",
+            "updatedAt": "2026-03-17T09:19:26.231Z"
+        },
+        {
+            "id": 2,
+            "title": "Hollywood Monsoon Night — Los Angeles",
+            "description": "An unforgettable evening of live music performed by A-list playback singers under the open Mumbai sky. Featuring chart-toppers from the last three decades with a stunning light show and pyrotechnics.",
+            "category": "Concert",
+            "venue": "Dome, NSCI SVP Stadium, Worli",
+            "city": "Los Angeles",
+            "eventDate": "2026-07-11T19:00:00.000Z",
+            "price": "2500",
+            "totalSeats": 3000,
+            "availableSeats": 3000,
+            "imageUrl": "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800",
+            "isStatic": true,
+            "userId": null,
+            "createdAt": "2026-02-22T23:03:37.669Z",
+            "updatedAt": "2026-03-09T14:52:05.370Z"
+        },
+        {
+            "id": 1,
+            "title": "World Tech Summit",
+            "description": "A premier technology conference bringing together 500+ industry leaders, startup founders, and engineers for two days of keynotes, workshops, and networking. Topics include AI/ML, cloud infrastructure, DevSecOps, and the future of the Indian tech ecosystem.",
+            "category": "Conference",
+            "venue": "Hyderabad, Hitech city",
+            "city": "Hyderabad",
+            "eventDate": "2026-04-18T09:00:00.000Z",
+            "price": "1500",
+            "totalSeats": 500,
+            "availableSeats": 500,
+            "imageUrl": "https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800",
+            "isStatic": true,
+            "userId": null,
+            "createdAt": "2026-02-22T23:03:37.659Z",
+            "updatedAt": "2026-02-22T23:03:37.659Z"
+        },
+        {
+            "id": 4663,
+            "title": "Perf GetById Event",
+            "description": "Libero incidunt dolores quibusdam autem illo sit corrupti. Dolorem consectetur qui maiores voluptatem dolores. Vel iste quisquam maxime assumenda et nihil. In et recusandae minus nostrum. Minima libero maxime illum ipsam laborum.",
+            "category": "Sports",
+            "venue": "47625 Mickey Pike, Collierview",
+            "city": "Delhi",
+            "eventDate": "2026-06-17T15:08:15.979Z",
+            "price": "2634",
+            "totalSeats": 239,
+            "availableSeats": 239,
+            "imageUrl": "https://picsum.photos/seed/4238r3/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:16.107Z",
+            "updatedAt": "2026-03-17T09:38:16.107Z"
+        },
+        {
+            "id": 4662,
+            "title": "Perf Test Event",
+            "description": "Incidunt odio consequatur voluptatem sunt. Magnam facilis sunt laboriosam. Deleniti facilis distinctio corrupti aut voluptatem.",
+            "category": "Sports",
+            "venue": "713 Brooke Harbors, Port Elenehaven",
+            "city": "Mumbai",
+            "eventDate": "2026-07-18T15:08:15.836Z",
+            "price": "517",
+            "totalSeats": 184,
+            "availableSeats": 184,
+            "imageUrl": "https://picsum.photos/seed/281037/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:15.958Z",
+            "updatedAt": "2026-03-17T09:38:15.958Z"
+        },
+        {
+            "id": 4658,
+            "title": "E2E Full Journey Event",
+            "description": "Tenetur rerum natus quia esse. Officia non velit. Aspernatur aspernatur qui quia blanditiis.",
+            "category": "Conference",
+            "venue": "6889 Jannie Manor, West Auroraport",
+            "city": "Hyderabad",
+            "eventDate": "2026-06-07T15:07:22.695Z",
+            "price": "1439",
+            "totalSeats": 200,
+            "availableSeats": 198,
+            "imageUrl": "https://picsum.photos/seed/7iks2m/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:37:22.890Z",
+            "updatedAt": "2026-03-17T09:37:22.890Z"
+        },
+        {
+            "id": 4657,
+            "title": "E2E Full Journey Event",
+            "description": "Quia nulla odio possimus. Est qui rerum. Voluptatem officiis hic magnam error inventore vel sapiente. A reiciendis quibusdam deleniti blanditiis.",
+            "category": "Conference",
+            "venue": "49412 Rosenbaum Plains, South Tim",
+            "city": "Bangalore",
+            "eventDate": "2026-06-04T15:06:49.609Z",
+            "price": "4210",
+            "totalSeats": 473,
+            "availableSeats": 471,
+            "imageUrl": "https://picsum.photos/seed/561358/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:36:49.714Z",
+            "updatedAt": "2026-03-17T09:36:49.714Z"
+        },
+        {
+            "id": 4509,
+            "title": "Debug Test",
+            "description": "Desc",
+            "category": "Music",
+            "venue": "Venue",
+            "city": "Mumbai",
+            "eventDate": "2026-04-15T10:00:00.000Z",
+            "price": "500",
+            "totalSeats": 100,
+            "availableSeats": 100,
+            "imageUrl": "https://picsum.photos/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T05:55:18.920Z",
+            "updatedAt": "2026-03-17T05:55:18.920Z"
+        },
+        {
+            "id": 4320,
+            "title": "Booking Test Event",
+            "description": "Adsum approbo sol. Demonstro laborum curia comprehendo aspicio. Denego volup clibanus.",
+            "category": "Workshop",
+            "venue": "767 Megane Station, Fort Pamela",
+            "city": "Chennai",
+            "eventDate": "2026-03-31T17:27:00.431Z",
+            "price": "500",
+            "totalSeats": 100,
+            "availableSeats": 100,
+            "imageUrl": "https://picsum.photos/seed/kDXB51/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T04:04:13.498Z",
+            "updatedAt": "2026-03-17T04:04:13.498Z"
+        },
+        {
+            "id": 4319,
+            "title": "Booking Test Event",
+            "description": "Degero valens perspiciatis dapifer sordeo vigilo cunae stipes comparo delicate. Calamitas patior demulceo id cubicularis auxilium caries quidem. Adipisci ascit circumvenio et voro vesper.",
+            "category": "Concert",
+            "venue": "769 Quentin Valley, Weston",
+            "city": "Mumbai",
+            "eventDate": "2027-01-19T01:50:28.643Z",
+            "price": "500",
+            "totalSeats": 100,
+            "availableSeats": 100,
+            "imageUrl": "https://picsum.photos/seed/FrttOr/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T04:04:13.497Z",
+            "updatedAt": "2026-03-17T04:04:13.497Z"
+        }
+    ],
+    "pagination": {
+        "total": 10,
+        "page": 1,
+        "limit": 10,
+        "totalPages": 1
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginEndpointShouldRespondUnder2s" classname="com.eventmanagement.tests.performance.PerformanceTest" time="0.214">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "mafdangowda8095@gmail.com",
+    "password": "Madan@123"
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+ETag: W/"112-AD9b7zO3Z1sTQ8HAwcq3f1w4z0A"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAxLCJleHAiOjE3NzQzNDUxMDF9.Bt0uAnkVZ8a40hJYPr6Q7G7yO9WV-0e29LvGOVR-KoI",
+    "user": {
+        "id": 926,
+        "email": "mafdangowda8095@gmail.com"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="step1_RegisterNewUser" classname="com.eventmanagement.tests.e2e.FullJourneyTest" time="0.293">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4662
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4662
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjk1LCJleHAiOjE3NzQzNDUwOTV9.0YF4ByIaIX-JoJW1vkMnjiwNfOAIx37si6hsejIz2gs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:21 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 55
+ETag: W/"37-Qo9mb78Y7s+pUu+WpmJap/uNXdc"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Event deleted successfully"
+}
+Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4663
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4663
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMjk1LCJleHAiOjE3NzQzNDUwOTV9.0YF4ByIaIX-JoJW1vkMnjiwNfOAIx37si6hsejIz2gs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:22 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 55
+ETag: W/"37-Qo9mb78Y7s+pUu+WpmJap/uNXdc"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Event deleted successfully"
+}
+Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "mafdangowda8095@gmail.com",
+    "password": "Madan@123"
+}
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:22 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 274
+ETag: W/"112-xgtE/mzR4OKNlB9ltXBbVtOBJtE"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc",
+    "user": {
+        "id": 926,
+        "email": "mafdangowda8095@gmail.com"
+    }
+}
+Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/register
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "testuser_1773740302671@test.com",
+    "password": "Test@gt80b7mk"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:22 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 288
+ETag: W/"120-PKeMLXKxgV3uvhzpfBD8hNDnZco"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjk5OCwiZW1haWwiOiJ0ZXN0dXNlcl8xNzczNzQwMzAyNjcxQHRlc3QuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9.cD1o4idsoxEUVxPIYTh2WnQ8rM0pNWgfKZOFnTHD5rs",
+    "user": {
+        "id": 998,
+        "email": "testuser_1773740302671@test.com"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="step2_LoginWithRegisteredUser" classname="com.eventmanagement.tests.e2e.FullJourneyTest" time="1.118">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/auth/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjk5OCwiZW1haWwiOiJ0ZXN0dXNlcl8xNzczNzQwMzAyNjcxQHRlc3QuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9.cD1o4idsoxEUVxPIYTh2WnQ8rM0pNWgfKZOFnTHD5rs
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 114
+ETag: W/"72-eqo0t36MPdKWaZhPzdXuIIqAfpI"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "user": {
+        "userId": 998,
+        "email": "testuser_1773740302671@test.com",
+        "iat": 1773740302,
+        "exp": 1774345102
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="step3_CreateEvent" classname="com.eventmanagement.tests.e2e.FullJourneyTest" time="0.129">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "title": "E2E Full Journey Event",
+    "description": "Corrupti iure aut et odit molestiae. Et quasi ut repellat. Qui repellendus reprehenderit culpa dolor qui et quia. Quos dolor deserunt unde qui eos.",
+    "category": "Concert",
+    "venue": "11322 Peter Mall, New Deana",
+    "city": "Chennai",
+    "eventDate": "2026-12-26T15:08:24.083372",
+    "price": 1267,
+    "totalSeats": 102,
+    "imageUrl": "https://picsum.photos/seed/3458e6/800/400"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 602
+ETag: W/"25a-YEiFsdvauxUR996UL50RtVVjt2I"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4664,
+        "title": "E2E Full Journey Event",
+        "description": "Corrupti iure aut et odit molestiae. Et quasi ut repellat. Qui repellendus reprehenderit culpa dolor qui et quia. Quos dolor deserunt unde qui eos.",
+        "category": "Concert",
+        "venue": "11322 Peter Mall, New Deana",
+        "city": "Chennai",
+        "eventDate": "2026-12-26T15:08:24.083Z",
+        "price": "1267",
+        "totalSeats": 102,
+        "availableSeats": 102,
+        "imageUrl": "https://picsum.photos/seed/3458e6/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:24.194Z",
+        "updatedAt": "2026-03-17T09:38:24.194Z"
+    },
+    "message": "Event created successfully"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="step4_BookTheEvent" classname="com.eventmanagement.tests.e2e.FullJourneyTest" time="0.248">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "eventId": 4664,
+    "quantity": 2,
+    "customerName": "Orval Beahan",
+    "customerEmail": "consuelo.white@gmail.com",
+    "customerPhone": "+91-7397325155"
+}
+HTTP/1.1 201 Created
+Date: Tue, 17 Mar 2026 09:38:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 903
+ETag: W/"387-K4PB0bRSJWIGX0e8hd6ViHrxjPw"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4514,
+        "eventId": 4664,
+        "userId": 926,
+        "customerName": "Orval Beahan",
+        "customerEmail": "consuelowhite@gmail.com",
+        "customerPhone": "+91-7397325155",
+        "quantity": 2,
+        "totalPrice": "2534",
+        "status": "confirmed",
+        "bookingRef": "E-LSHNGK",
+        "createdAt": "2026-03-17T09:38:24.318Z",
+        "updatedAt": "2026-03-17T09:38:24.318Z",
+        "event": {
+            "id": 4664,
+            "title": "E2E Full Journey Event",
+            "description": "Corrupti iure aut et odit molestiae. Et quasi ut repellat. Qui repellendus reprehenderit culpa dolor qui et quia. Quos dolor deserunt unde qui eos.",
+            "category": "Concert",
+            "venue": "11322 Peter Mall, New Deana",
+            "city": "Chennai",
+            "eventDate": "2026-12-26T15:08:24.083Z",
+            "price": "1267",
+            "totalSeats": 102,
+            "availableSeats": 102,
+            "imageUrl": "https://picsum.photos/seed/3458e6/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:24.194Z",
+            "updatedAt": "2026-03-17T09:38:24.194Z"
+        }
+    },
+    "message": "Booking confirmed!"
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4664
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4664
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 563
+ETag: W/"233-PwGjzTjxmzzD+mJ4mGfHz2kwVx4"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4664,
+        "title": "E2E Full Journey Event",
+        "description": "Corrupti iure aut et odit molestiae. Et quasi ut repellat. Qui repellendus reprehenderit culpa dolor qui et quia. Quos dolor deserunt unde qui eos.",
+        "category": "Concert",
+        "venue": "11322 Peter Mall, New Deana",
+        "city": "Chennai",
+        "eventDate": "2026-12-26T15:08:24.083Z",
+        "price": "1267",
+        "totalSeats": 102,
+        "availableSeats": 100,
+        "imageUrl": "https://picsum.photos/seed/3458e6/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:24.194Z",
+        "updatedAt": "2026-03-17T09:38:24.194Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="step5_VerifyBookingInListing" classname="com.eventmanagement.tests.e2e.FullJourneyTest" time="0.119">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings/4514
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4514
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 872
+ETag: W/"368-HU0+licgnY3FerGt57xs9R+nkMk"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4514,
+        "eventId": 4664,
+        "userId": 926,
+        "customerName": "Orval Beahan",
+        "customerEmail": "consuelowhite@gmail.com",
+        "customerPhone": "+91-7397325155",
+        "quantity": 2,
+        "totalPrice": "2534",
+        "status": "confirmed",
+        "bookingRef": "E-LSHNGK",
+        "createdAt": "2026-03-17T09:38:24.318Z",
+        "updatedAt": "2026-03-17T09:38:24.318Z",
+        "event": {
+            "id": 4664,
+            "title": "E2E Full Journey Event",
+            "description": "Corrupti iure aut et odit molestiae. Et quasi ut repellat. Qui repellendus reprehenderit culpa dolor qui et quia. Quos dolor deserunt unde qui eos.",
+            "category": "Concert",
+            "venue": "11322 Peter Mall, New Deana",
+            "city": "Chennai",
+            "eventDate": "2026-12-26T15:08:24.083Z",
+            "price": "1267",
+            "totalSeats": 102,
+            "availableSeats": 102,
+            "imageUrl": "https://picsum.photos/seed/3458e6/800/400",
+            "isStatic": false,
+            "userId": 926,
+            "createdAt": "2026-03-17T09:38:24.194Z",
+            "updatedAt": "2026-03-17T09:38:24.194Z"
+        }
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="step6_CancelBookingAndVerifySeats" classname="com.eventmanagement.tests.e2e.FullJourneyTest" time="0.339">
+    <system-out><![CDATA[Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4664
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4664
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 563
+ETag: W/"233-PwGjzTjxmzzD+mJ4mGfHz2kwVx4"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4664,
+        "title": "E2E Full Journey Event",
+        "description": "Corrupti iure aut et odit molestiae. Et quasi ut repellat. Qui repellendus reprehenderit culpa dolor qui et quia. Quos dolor deserunt unde qui eos.",
+        "category": "Concert",
+        "venue": "11322 Peter Mall, New Deana",
+        "city": "Chennai",
+        "eventDate": "2026-12-26T15:08:24.083Z",
+        "price": "1267",
+        "totalSeats": 102,
+        "availableSeats": 100,
+        "imageUrl": "https://picsum.photos/seed/3458e6/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:24.194Z",
+        "updatedAt": "2026-03-17T09:38:24.194Z"
+    }
+}
+Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/bookings/4514
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4514
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 46
+ETag: W/"2e-ZzefWV9z74FsUotarh0dpXKMDns"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Booking cancelled"
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4664
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4664
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:24 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 563
+ETag: W/"233-5bNogyQud3adj/Tid4qi5xwRNNM"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "data": {
+        "id": 4664,
+        "title": "E2E Full Journey Event",
+        "description": "Corrupti iure aut et odit molestiae. Et quasi ut repellat. Qui repellendus reprehenderit culpa dolor qui et quia. Quos dolor deserunt unde qui eos.",
+        "category": "Concert",
+        "venue": "11322 Peter Mall, New Deana",
+        "city": "Chennai",
+        "eventDate": "2026-12-26T15:08:24.083Z",
+        "price": "1267",
+        "totalSeats": 102,
+        "availableSeats": 102,
+        "imageUrl": "https://picsum.photos/seed/3458e6/800/400",
+        "isStatic": false,
+        "userId": 926,
+        "createdAt": "2026-03-17T09:38:24.194Z",
+        "updatedAt": "2026-03-17T09:38:24.194Z"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="step7_DeleteEventAndVerify" classname="com.eventmanagement.tests.e2e.FullJourneyTest" time="0.207">
+    <system-out><![CDATA[Request method:	DELETE
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4664
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4664
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 17 Mar 2026 09:38:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 55
+ETag: W/"37-Qo9mb78Y7s+pUu+WpmJap/uNXdc"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": true,
+    "message": "Event deleted successfully"
+}
+Request method:	GET
+Request URI:	https://api.eventhub.rahulshettyacademy.com/api/events/4664
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	id=4664
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjkyNiwiZW1haWwiOiJtYWZkYW5nb3dkYTgwOTVAZ21haWwuY29tIiwiaWF0IjoxNzczNzQwMzAyLCJleHAiOjE3NzQzNDUxMDJ9._jJJcX0Vt7gVLPuIbkc18hW4aDNmwegiiDDjxReuDSc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Date: Tue, 17 Mar 2026 09:38:25 GMT
+Server: Apache/2.4.52 (Ubuntu)
+X-Powered-By: Express
+Access-Control-Allow-Origin: https://eventhub.rahulshettyacademy.com
+Vary: Origin
+Access-Control-Allow-Credentials: true
+Content-Type: application/json; charset=utf-8
+Content-Length: 56
+ETag: W/"38-qI7vH+/vzWD2jHU97lBmLnyCnj4"
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+
+{
+    "success": false,
+    "error": "Event with id 4664 not found"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
